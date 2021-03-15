@@ -1,0 +1,13 @@
+{
+  "name": "GameCaro",
+  "type": "3d",
+  "uuid": "b20d9d15-9a84-4829-a8b3-3b90b8ec759b",
+  "homepage": "http://tuongkhoi6777.github.io/game-caro",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "version": "3.0.0",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "ver": "1.1.27",
+  "importer": "prefab",
+  "imported": true,
+  "uuid": "1a93d58c-188c-4dfd-ba6f-44845d45637e",
+  "files": [
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {
+    "syncNodeName": "VerticalLine"
+  }
+}
