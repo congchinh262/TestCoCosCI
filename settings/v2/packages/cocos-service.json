@@ -1,14 +1,22 @@
 {
   "__version__": "3.0.0",
   "game": {
-    "name": "UNKNOW GAME",
-    "app_id": "UNKNOW",
+    "app_id": "658011740",
+    "name": "GameCaro_20210315173934",
     "c_id": "0"
   },
   "appConfigMaps": [
     {
       "app_id": "UNKNOW",
       "config_id": "17bfbf"
+    },
+    {
+      "app_id": "658011739",
+      "config_id": "9a382d"
+    },
+    {
+      "app_id": "658011740",
+      "config_id": "ffaf9b"
     }
   ],
   "configs": [
@@ -18,6 +26,36 @@
       "config_name": "Default",
       "config_remarks": "",
       "services": []
+    },
+    {
+      "app_id": "658011739",
+      "config_id": "669bae",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": []
+    },
+    {
+      "app_id": "658011739",
+      "config_id": "9a382d",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": []
+    },
+    {
+      "app_id": "658011740",
+      "config_id": "ffaf9b",
+      "config_name": "Default",
+      "config_remarks": "",
+      "services": [
+        {
+          "service_id": "235",
+          "enable": false,
+          "param": {
+            "app_id": "658011740",
+            "store_id": "H5"
+          }
+        }
+      ]
     }
   ]
 }
