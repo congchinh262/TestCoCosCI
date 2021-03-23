@@ -28,6 +28,5 @@ jobs:
           CocosCreator/CocosCreator.exe --path projectPath --build "platform=web-desktop;debug=true"
       - name: run build on MacOs
         run: |
-          /Applications/CocosCreator.app/Contents/MacOS/CocosCreator --path projectPath
-  --build "platform=android;debug=true"
+          CocosCreator.app/Contents/MacOS/CocosCreator --path /Users/mac/Documents/Project/TestGitActions/TestWithCocos/TestCoCosCI --build "platform=web-desktop;debug=true";    
 
