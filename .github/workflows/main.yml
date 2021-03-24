@@ -21,4 +21,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: run build on MacOs
         run: 
-          CocosCreator.app/Contents/MacOS/CocosCreator --path /Users/mac/Documents/Project/TestGitActions/TestWithCocos/TestCoCosCI --build "platform=web-desktop;debug=true";
+          /Applications/CocosCreator/Creator/2.4.4/CocosCreator.app/Contents/MacOS/CocosCreator --path ./ --build "platform=web-desktop;debug=true";
