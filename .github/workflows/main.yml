@@ -21,3 +21,10 @@ jobs:
       - name: run build on MacOs
         run: 
           /Applications/CocosCreator/Creator/2.4.4/CocosCreator.app/Contents/MacOS/CocosCreator --path ./ --build "platform=web-desktop;debug=true";
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.0
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: web-desktop # The folder the action should deploy.
+
+        
