@@ -12,21 +12,14 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    strategy:
-      matrix:
-        os: [self-hosted,windows-latest]
     # The type of runner that the job will run on
-    runs-on: ${{matrix.os}}
+    runs-on: self-hosted
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
-
-      - name: run build on Microsoft
-        run: |
-          CocosCreator/CocosCreator.exe --path projectPath --build "platform=web-desktop;debug=true"
       - name: run build on MacOs
-        run: |
+        run: 
           CocosCreator.app/Contents/MacOS/CocosCreator --path /Users/mac/Documents/Project/TestGitActions/TestWithCocos/TestCoCosCI --build "platform=web-desktop;debug=true";    
 
